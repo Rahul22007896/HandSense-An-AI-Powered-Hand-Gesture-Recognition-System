@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+            body{
+                    background:url("/static/images/A103.jpg");
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: 100% 100%;
+                    }
+
+            header{
+                padding :20px 10px;
+            }
+            .logo{
+                margin-left:40px;
+            display:flex;
+            }
+            a{
+            text-decoration:none;
+            color:white;
+            }
+            span{
+            display:inline-block;
+            width:20px;
+            height:100%;
+            border:4px solid yellow;
+            }
+
+            li{
+                color:white;
+                list-style: none;
+
+            } 
+            .right{
+                padding-right:60px;
+            }
+            .right a {
+                font-weight: 900;
+                letter-spacing: 2px;
+                font-size: 10px;
+                margin-top:-30px;
+                margin-right:25px;
+                padding: 10px;
+                color:#C8C8C8;
+                float: right;
+                text-decoration: none;
+            }
+            .right a:hover{
+                color:#13deec;
+            }
+            hr{ color:#C8C8C8;
+                margin-top: -20px;
+                margin-left:70px;
+                margin-right:90px;
+                align-content: center;
+            }
+            .text{
+                margin-top:100px;
+                width:500px;
+                color:white;
+                padding-left: 50px;
+            }
+            h6{
+            font-weight:600;
+            color:#C8C8C8;
+            font-size:13px ;
+            padding-bottom: 0px;
+            }
+            h1{
+                margin-top: -20px;
+                font-size:40px;
+                letter-spacing:3px;
+                font-weight:bold;
+            }
+            button{
+                background-color: #1b81e0;
+                border:none;
+                border-radius:8px;
+                padding:15px 30px;
+                font-size: 15px;
+                font-weight:bold;
+
+                text-align: center;
+                margin-left:60px;
+            cursor:pointer;
+            outline:none;
+            }
+            button:hover{
+            background-color: #8ae0dc;
+            }
+            .left-down-image{
+                background-image: url("/static/images/A86.jpg");
+                background-repeat: no-repeat;
+                background-size: 500px;
+                background-position: right top;
+                float:right;
+                color:white;
+                margin-right:20px;
+                width:500px;
+                height:160px;
+                border:2px solid #FFD600;
+                border-radius:2px ;
+            }
+            .head h3{
+                width:100px;
+                padding-left:10px;
+                margin-top:10px;
+                margin-left:35px;
+                font-size: 15px;
+                color: #C8C8C8;
+                font-weight: bold;
+                border-left:2px solid #FFD600;
+
+            }
+
+            .head  p{
+                margin-top:-10px;
+                padding-left:20px;
+                line-height: 20px;
+                font-size:15px;
+                letter-spacing: 1px;
+                font-weight:400;
+            }
+
+            @media (max-width:1075px){
+            body{
+                background-size:cover;
+                
+            }
+            .text{
+                margin-top:100px;
+            }
+            .left-down-image{
+                margin-right:50px;
+                margin-top:-90px;
+            }
+            }
+    </style>
+</head>
+<body>
+    {% csrf_token %} 
+    <html>
+    <head>
+        <title>SOCIAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-comptible" content="ie=edge">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+     <body>
+        <header class="header">
+           <ul>
+               <div class="left"> 
+                 <li class="logo"><a href="#" ><span></span>ARTIFICIAL<br>INTELLIGENCE</a></li></div>
+                <div class="right" >  
+                    <li><a href="{% url 'Login_3' %}"><p style="font-size: 15px; color: white;">LOGOUT</p></a></li>  
+                    <li><a href="{% url 'Problem_Statement_7' %}"><p style="font-size: 15px;color: white">PROBLEM STATEMENTS</p></a></li>  
+                    <li><a href="{% url 'Domain_Result_6' %}"><p style="font-size: 15px;color: white">DOMAIN_RESULT</p></a></li>
+                    <li><a href="{% url 'Teamates_5' %}"><p style="font-size: 15px;color: white">FOUNDATION</p></a></li>
+
+
+
+
+
+
+                </div>
+           </ul> 
+      </header>
+         <hr>
+      <div class="text">
+           <h6>TESTING</h6>
+           <h2>FOR SOCIAL DOMAIN<br><br><h1 style="color: white;">PUBLIC ALERTMENT SYSTEM USING CNN AND OPENCV</h1></h1>
+      </div>
+      <br>  
+      <div class="button">
+        <button><a href="{% url 'Per_Info_8' %}">PERSONAL INFORMATION</a></button>
+        <button><a href="{% url 'Per_Database_10' %}">PERSONAL_INFO_DATABASE</a></button>
+         <button><a href="{% url 'Deploy_9' %}">OPENCV</a></button>
+
+
+      </div>
+     <br>
+      <div class="left-down-image">
+        
+            <div class="head">
+               <h3 style="color: white;">TECHNOLOGY</h3>
+                <br>
+                <b><p style="color: white;">CNN<br>ANN<br>DL<br>OPENCV<br></b>
+            </div>
+         </div>   
+
+    <div class="text">
+        <h1 style="color: white;">OPENCV</h1>
+          <p style="color: white; font-size: 20px;">OpenCV, short for Open Source Computer Vision Library, is a powerful open-source computer vision and machine learning software library. It provides a wide range of functionalities for image and video processing, including reading, writing, and manipulating images and videos, as well as performing various tasks such as object detection, tracking, face recognition, and more. OpenCV is written in C++ and optimized for performance, with bindings available for Python, Java, and other languages. It is widely used in various fields such as robotics, augmented reality, medical image analysis, and surveillance systems due to its extensive set of algorithms and easy-to-use interfaces. With its active community support and continuous development, OpenCV remains one of the most popular and widely used libraries for computer vision applications.</p>
+        <br>
+        
+    
+    <script src="https://kit.fontawesome.com/1c51b0c30c.js" ></script>
+    </body>
+
+</html>
+</body>
+</html>

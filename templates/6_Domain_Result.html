@@ -1,0 +1,141 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+        background: #EECDA3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #b39e90, #508bd3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #6163e4, #6ed6dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Montserrat', sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          min-height: 100vh;
+        }
+        .container{
+          background-color:#ffffff;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        height: 90vh;
+          width: 90vw;
+          margin: auto; 
+          display: flex;
+        }
+        .header{
+          background-color: #616161;
+          color: #ffffff;
+          display: flex;
+          flex: 3;
+          flex-direction: column;
+          justify-content: space-evenly;
+          padding: 3%;
+        }
+        .header h1{
+          position: relative;
+        }
+
+        .header h1::after {
+          background-color: #EECDA3;
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          height: 6px;
+          width: 30%;
+        }
+        .author{
+          display: flex;
+          align-items: center;
+        }
+        .author img{
+          border-radius: 50%;
+          box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.63);
+        -webkit-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.63);
+        -moz-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.63);
+          margin-right: 5%;
+          height: 100px;
+        }
+        .content{
+          background-color: #ffffff;
+          flex:4;
+          padding: 1% 2% 3% 2%;
+          position: relative;
+        }
+        .text{
+          overflow: auto;
+          height: 100%;
+          color: #616161;
+        }
+        .text h2::first-letter{
+          font-size: 200%;
+          font-weight: bold;
+        }
+        .info{
+          background-color: #ffffff;
+          padding:2%;
+        position: absolute;
+        width: 100%;
+        bottom:0;
+        left: 0; }
+        .info a{
+          color: #464646;
+          text-decoration: none;
+        }
+        @media screen and (max-width: 800px) {
+          .blog-container {
+            flex-direction: column;
+            height: auto;
+          }}
+  </style>
+</head>
+<body> 
+          <div class="container">
+          <div class="header">
+            <h1>RESULT AND DOMAIN</h1>
+          <div class="author">
+            <img src="/static/images/A11.jpg">
+            <p>PROJECT</p>
+          </div>  </div>
+
+          <div class="content">
+          <div class="text">
+          <h2>DOMAIN AND RESULTS</h2>
+            <h3>*  Datascience and Artificial Intelligence</h3>
+
+          <h2>TECHNOLOGY</h2>
+            <h3>*  Deep Learning</h3>
+            <h3>*  OpenV</h3>
+            <h3>*  Convolution Neural Network</h3>
+            <h3>*  Artificial Neural Network</h3>
+
+          <h2>CLASSIFICATION ARCHITECTURES</h2>
+             <h3>*  MOBILENET ARCHITECTURES</h3>
+             <h3>*  GOOGLENET OR INCEPTIONNET ARCHITECTURES</h3>
+
+
+
+
+           
+        </div>
+            <div class="info"> <a href="https://twitter.com/habibawael02/status/1390238135255191553?s=20" target="_blank"> Continue Reading...</a></div>
+        </div>
+          
+        </div>
+  
+</body>
+</html>

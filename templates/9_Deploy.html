@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}"> 
+	<style>
+				.back{
+				
+				background-image: url("/static/images/A60.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: 100% 100%;
+				}
+				.white{
+				color:white;
+				}
+				.space{
+				margin:10px 30px;
+				padding:10px 10px;
+				background: lightblue;
+				width:500px
+				}
+				.gap{
+				padding:10px 20px;
+				}
+		</style>
+</head>
+
+<body class="back">
+
+	<header class="jumbotron" style="height:100px;">
+		<div class="container">
+		<center>
+
+		<h2>PUBLIC ALERTMENT SYSTEM USING CNN AND OPENCV</h2>
+	
+
+		</center>
+	    </div>
+	</header>
+	<center><br><br><br>
+
+	<div class="card ml-container" style="width:40%" >
+
+		<form class="form-group" action="{% url 'Deploy_9' %}" method="POST">
+			{% csrf_token %}
+			<a href="{% url 'Home_4' %}" style="color: red;"><h3 style="color: black;">HOME</h3></a>
+
+				<label class="black"  for="">ENTER THE DESCRIPTION HERE</label>
+		
+				<input type="submit" class="btn btn-success btn-block" style="width:350px;padding:20px" value="TO DETECT THE HAND GESTURE">
+
+	    </form>
+	
+
+		
+	</div><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+</center>
+
+	
+	
+
+</body>
+</html>
