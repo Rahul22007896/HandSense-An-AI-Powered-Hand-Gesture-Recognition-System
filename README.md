@@ -48,19 +48,21 @@ Jupyter Notebook 	Prototyping and testing models
 
 ## System Architecture
 
-![Screenshot 2025-05-20 220558](https://github.com/user-attachments/assets/27c969c7-ebeb-41bf-8df6-a137341bcfae)
+![Screenshot 2025-05-21 212703](https://github.com/user-attachments/assets/cbf65fca-40cd-4eb2-8064-85ab9e0e4df1)
 
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output - Of Different Hand Gesture Recognised
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Screenshot 2025-05-21 220712](https://github.com/user-attachments/assets/ff7f6445-5019-4a81-9abe-6c69839d4d4a)
+![Screenshot 2025-05-21 220745](https://github.com/user-attachments/assets/6f259964-a0cb-47e7-842b-0226b8379da6)
+![Screenshot 2025-05-21 220827](https://github.com/user-attachments/assets/04367149-3f6f-4285-9f7d-2fc651f5b127)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+
+
 
 ## 🌍 Impacts
 🔒 Touch-Free Safety
